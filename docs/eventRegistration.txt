@@ -1,0 +1,19 @@
+Esemény regisztráció kezelő backend: eventRegistration
+
+event_registration  (database neve)
+users(id, name, email, phone, created_at, updated_at)
+events(id, title, description, date, location, max_attendees, created_at, updated_at)
+registrations(id, user_id, event_id, status, registered_at, created_at, updated_at)
+
+
+telepites
+push
+.env
+sanctum
+migraciok es modellek (users, event, registration)
+xampp inditas, migralas
+factory-k letrehozasa (user, event, registration)
+seeder-k letrehozasa (user, event, registration)
+
+adatbazis feltoltese
+API utvonalak beallitasa
